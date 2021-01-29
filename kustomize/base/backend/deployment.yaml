@@ -11,7 +11,7 @@ spec:
     spec:
       containers:
       - name: timber-backend
-        image: docker.io/swsecureworks/timber-backend:97428502ed598ff6f53a5ad8b64b06e841c209a7
+        image: docker.io/swsecureworks/timber-backend:00696771e4e702d3410f52d016bcc0ec5398e176
         ports:
         - containerPort: 8080
         env:
