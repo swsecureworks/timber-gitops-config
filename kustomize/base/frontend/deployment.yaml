@@ -18,4 +18,4 @@ spec:
         ports:
         - containerPort: 8080
         env:
-          - {name: TIMBER_BACKEND_API_URL, value: "http://$(TIMBER_BACKEND_API_URL):8080"}
+          - {name: TIMBER_BACKEND_API_URL, value: "http://timber-backend:8080"}
